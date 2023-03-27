@@ -4,6 +4,7 @@ import Genres from "./Genres/Genres";
 import Row from "./Row/Row";
 import Chartable from "./Chartable/Chartable";
 import Likebutton from "./Likebutton/Likebutton";
+import Cell from "./Cell/Cell";
 
-export { Header, Musicbar, Genres, Row, Chartable, Likebutton };
+export { Header, Musicbar, Genres, Row, Chartable, Likebutton, Cell };
 

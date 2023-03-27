@@ -1,0 +1,13 @@
+/* Like button */
+
+btn {
+box-sizing: border-box;
+position: absolute;
+width: 74.25px;
+height: 173.82px;
+left: 3878px;
+top: 667px;
+
+border: 1px dashed #9747FF;
+border-radius: 5px;
+}
