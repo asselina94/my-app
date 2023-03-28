@@ -1,19 +1,18 @@
 import React, { useState } from "react";
-import Heart3 from "../../assets/heartfull.png";
-import Heart1 from "../../assets/heart1.png";
+import Heart1 from "../../assets/heart.svg";
+import Heart2 from "../../assets/heartfull.svg";
 import './Likebutton.css';
 
-const Likebutton = () => {
+const LikeButton = () => {
   const [like, setLiked] = useState(false);
 
   return (
-    <div className = 'btn' >
+    <div className = "btn" >
       <button onClick= {() => setLiked((prevLike) => !prevLike)}>
-       like {like? Heart3 : Heart1}
-
+      Lik: {like? "Heart1" : "Heart2"}
       </button>
     </div>
-  )
-}
+  );
+};
 
-export default Likebutton
+export default LikeButton;

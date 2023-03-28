@@ -3,8 +3,8 @@ import Musicbar from "./Musicbar/Musicbar";
 import Genres from "./Genres/Genres";
 import Row from "./Row/Row";
 import Chartable from "./Chartable/Chartable";
-import Likebutton from "./Likebutton/Likebutton";
+import LikeButton from "./LikeButton/LikeButton";
 import Cell from "./Cell/Cell";
 
-export { Header, Musicbar, Genres, Row, Chartable, Likebutton, Cell };
+export { Header, Musicbar, Genres, Row, Chartable, LikeButton, Cell };
 
