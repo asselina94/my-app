@@ -9,7 +9,7 @@ const LikeButton = () => {
   return (
     <div className = "btn" >
       <button onClick= {() => setLiked((prevLike) => !prevLike)}>
-      Lik: {like? "Heart1" : "Heart2"}
+      Lik:{Heart1}
       </button>
     </div>
   );
