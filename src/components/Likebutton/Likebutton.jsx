@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Heart1 from "../../assets/heart.svg";
+import { ReactComponent as PostIcon } from "assets/heart.svg";
 import Heart2 from "../../assets/heartfull.svg";
 import './Likebutton.css';
 
@@ -7,12 +7,13 @@ const LikeButton = () => {
   const [like, setLiked] = useState(false);
 
   return (
-    <div className = "btn" >
+    <div className = "app" >
       <button onClick= {() => setLiked((prevLike) => !prevLike)}>
-      Lik:{Heart1}
+      like: <PostIcon />
       </button>
     </div>
   );
 };
+
 
 export default LikeButton;
