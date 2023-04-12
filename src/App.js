@@ -6,8 +6,10 @@ function App() {
   
   return (
   <>
-    <Musicbar />
-    <LikeButton /> 
+    
+    
+    <LikeButton />
+    <Cell /> 
     </>
   );
 }

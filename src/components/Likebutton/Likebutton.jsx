@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ReactComponent as PostIcon } from "assets/heart.svg";
-import Heart2 from "../../assets/heartfull.svg";
+import { ReactComponent as Heart } from "assets/heartsmall.svg";
 import './Likebutton.css';
 
 const LikeButton = () => {
@@ -9,7 +9,7 @@ const LikeButton = () => {
   return (
     <div className = "app" >
       <button onClick= {() => setLiked((prevLike) => !prevLike)}>
-      like: <PostIcon />
+         {like ? <PostIcon /> : <Heart/>}
       </button>
     </div>
   );
