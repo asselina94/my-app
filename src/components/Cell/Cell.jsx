@@ -4,17 +4,15 @@ import './Cell.css';
 
 const Cell = () => {
   return (
-    <div className = "cellstyle">
-      <div className = "bodyCellcontent">
+    <div class="wrapper">
+        <img src={tomodellImg} alt="" className = "musicImg" />
+   
+      <div class = "textWrapper">
+        <p className="songName">Another Love</p>
+        <p className="artistName">Tom Odell</p>
+      </div>
+    </div>
         
-          <img src={tomodellImg} alt="" className = "musicImg" />
-          
-          <p className="songName">Another Love</p>
-          <p className="artistName">Tom Odell</p>
-        </div>
-        </div>
-      
-    
   )
 }
 

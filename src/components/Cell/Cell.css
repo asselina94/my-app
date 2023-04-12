@@ -1,34 +1,14 @@
-/* Cell */
 
-.cellstyle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 0px 10px 0px 0px;
-
-  position: absolute;
-  width: 300px;
-  height: 65px;
-  left: 3307px;
-  top: 667px;
-
-}
- 
-cellstyle .bodyCellcontent {
+.wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 25px;
-
   width: 290px;
   height: 65px;
+  color: #FFFFFF;
 
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 0;
 
 }
 
@@ -37,35 +17,29 @@ cellstyle .bodyCellcontent {
   width: 65px;
   height: 65px;
   border-radius: 15px;
-
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-
-.songName {
-  position: absolute;
-  left: 31.03%;
-  right: 23.15%;
-  top: 60%;
-  bottom: 3.08%;
-
+wrapper .textWrapper {
+  display: flex;
+  flex-direction: column;
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
   
-}
-.artistName {
-  position: absolute;
-  left: 31.03%;
-  right: 0%;
-  top: 3.08%;
-  bottom: 55.38%;
 
-  font-style: normal;
+}
+textWrapper .songName {
+
   font-weight: 600;
   font-size: 22px;
   line-height: 27px;
+  
+  
+}
+textWrapper .artistName {
+  
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 }
