@@ -5,6 +5,7 @@ import Row from "./Row/Row";
 import Chartable from "./Chartable/Chartable";
 import LikeButton from "./LikeButton/LikeButton";
 import Cell from "./Cell/Cell";
+import Player from "./Player/Player";
 
-export { Header, Musicbar, Genres, Row, Chartable, LikeButton, Cell };
+export { Header, Musicbar, Genres, Row, Chartable, LikeButton, Cell, Player };
 

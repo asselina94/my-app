@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import { Header, Musicbar, Genres, Row, Chartable, LikeButton, Cell } from "components";
+import { Header, Musicbar, Genres, Row, Chartable, LikeButton, Cell, Player } from "components";
 
 function App() {
   
@@ -10,6 +10,7 @@ function App() {
     
     <LikeButton />
     <Cell /> 
+    <Player />
     </>
   );
 }
