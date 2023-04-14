@@ -8,7 +8,7 @@ const LikeButton = () => {
 
   return (
     <div className = "app" >
-      <button onClick= {() => setLiked((prevLike) => !prevLike)}>
+      <button class = "btn"onClick= {() => setLiked((prevLike) => !prevLike)}>
          {like ? <PostIcon /> : <Heart/>}
       </button>
     </div>
