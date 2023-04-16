@@ -1,10 +1,22 @@
 import React from 'react'
-import "./navbar.css"
+import { ReactComponent as SearchlongIcon } from "assets/searchLong.svg";
+import { ReactComponent as SearchnobackIcon } from "assets/longNoback.svg";
+import { ReactComponent as SearchmidIcon } from "assets/searchMid.svg";
+import { ReactComponent as SearchshortIcon } from "assets/searchShort.svg";
+import "./Navbar.css"
 
-const navbar = () => {
+const Navbar = () => {
   return (
-    <div>navbar</div>
+    <div className = "search">
+      Navbar
+      <SearchlongIcon />
+      <SearchnobackIcon />
+      <SearchmidIcon />
+      <SearchshortIcon />
+      
+       
+    </div>
   )
 }
 
-export default navbar
+export default Navbar

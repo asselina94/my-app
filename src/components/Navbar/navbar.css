@@ -1,0 +1,9 @@
+search {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 120px;
+  gap: 341px; 
+}
