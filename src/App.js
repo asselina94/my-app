@@ -12,6 +12,7 @@ function App() {
     <Cell /> 
     <Player />
     <Navbar />
+    <Row />
     </>
   );
 }

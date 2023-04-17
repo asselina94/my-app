@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap');
 :root {
   --dark-color-1: #040D1B;
   --dark-color-2: #0F1928;
@@ -5,12 +7,16 @@
   --pink-color: #E2577F;
   --purple-color: #4E3FE4;
 }
+
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  
   font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  
   
 }
 /* Home screen (No song playing) */

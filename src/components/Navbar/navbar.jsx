@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ReactComponent as SearchlongIcon } from "assets/searchLong.svg";
 import { ReactComponent as SearchnobackIcon } from "assets/longNoback.svg";
 import { ReactComponent as SearchmidIcon } from "assets/searchMid.svg";
@@ -12,6 +12,7 @@ const Navbar = () => {
       <SearchlongIcon />
       <SearchnobackIcon />
       <SearchmidIcon />
+      <br />
       <SearchshortIcon />
       
        
