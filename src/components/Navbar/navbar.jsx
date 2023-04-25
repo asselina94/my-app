@@ -8,14 +8,14 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <nav>
-      <div className = "wrapper">
+      <div className="wrapper">
         <SearchlongIcon />
-        <div class = "textWrapper">
-          <p className="music">ZaMusic</p>
-        </div>
-        <div className="search">
-        <SearchIcon /></div>
-      </div>  
+        <p className="music">ZaMusic</p>
+        
+      </div> 
+      
+       <span class="icon"> <SearchIcon /></span>
+        
       
     </nav>
   );
